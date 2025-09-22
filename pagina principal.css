@@ -4,20 +4,20 @@ body {
   background-color: #000;
   color: white;
 }
-
+/* Estilos para la portada */
 .portada {
   padding: 40px 20px;
   max-width: 1200px;
   margin: auto;
 }
-
+/* Contenedor principal */
 .contenedor-cajon {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
 }
-
+/* Estilos para las imágenes y el título */
 .imagen-izquierda,
 .imagen-derecha {
   width: 100%;
@@ -33,7 +33,7 @@ body {
   border-radius: 10px;
   box-sizing: border-box;
 }
-
+/* Estilos para el título central */
 .titulo-central {
   text-align: center;
   padding: 0px;
@@ -46,7 +46,7 @@ body {
   margin: 0;
 }
 
-
+/* Estilos para las etiquetas */
 .etiqueta-vertical {
   position: absolute;
   left: 350px;
@@ -64,7 +64,7 @@ body {
   font-size: 16px;
   letter-spacing: 30px;
 }
-
+/* Estilos para los botones */
 
 .botones {
   display: flex;
@@ -83,7 +83,7 @@ button {
   border: none;
   cursor: pointer;
 }
-
+/* Estilos para los botones al pasar el cursor */
 
 @media (min-width: 768px) {
   .contenedor-cajon {
@@ -92,11 +92,11 @@ button {
     align-items: center;
     gap: 40px;
   }
-
+/* Ajuste de tamaño de fuente para pantallas más grandes */
   .titulo {
     font-size: 65px;
   }
-
+/* Ajuste de posición de las etiquetas */
   .etiqueta {
     top: -40px;
     font-size: 18px;
